@@ -8,9 +8,9 @@ public:
     }
 
 protected:
-    Singeton() = default;
-    ~Singeton() = default;
+    Singleton() = default;
+    ~Singleton() = default;
 
-    Singleton(const Singeton&) = delete;
+    Singleton(const Singleton&) = delete;
     Singleton& operator=(const Singleton&) = delete;
 };
