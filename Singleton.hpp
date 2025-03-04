@@ -2,7 +2,7 @@ template <typename T>
 class Singleton {
 public:
     static T& getInstance() {
-        status T instance;
+        static T instance;
 
         return instance;
     }
