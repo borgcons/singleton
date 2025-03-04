@@ -1,7 +1,7 @@
 template <typename T>
 class Singleton {
 public:
-    static T& get_instance() {
+    static T& getInstance() {
         status T instance;
 
         return instance;
